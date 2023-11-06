@@ -6,53 +6,58 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Méně přesčasů? Nejde to, náš systém je na tom závislý.',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Náš zdravotní systém je na tom závislý, protože jsme se s tím smířili. Navykli jsme si na jeho neefektivitu, a to zejména v nakládání s časem ' +
+        'a prací kvalifikovaných pracovníků. Jak je možné, že mnoho zemí, s nimiž se chceme srovnávat, má zdravotnictví s minimálními přesčasy? Jak to, ' +
+        'že jsou tam lidé důstojně finančně ohodnoceni již za svou základní pracovní dobu a nejsou ekonomicky nuceni do přesčasové práce? S časem ' +
+        'a prací lékařů se plýtvá. Proč? Jsme levná pracovní síla. A to se musí změnit.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
-    },
-    {
-      question: 'How do I apply for a job at TaxPal?',
-      answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+      question: 'A kdo se postará o pacienty?',
+      answer: [
+        'Je správné mít na paměti dobro pacientů, koneckonců nás k tomu zavazuje nejen promoční slib, ale především naše morálka.',
+        'Mnoho lékařů-zaměstnanců ale podlehlo představě, že nesou odpovědnost za provoz svých pracovišť a dostupnost zdravotní péče. ' +
+        'Že jsou zodpovědní za to, co se děje v práci v době jejich nepřítomnosti.  Je to omyl. ',
+        'Odpovědnost nesou ti, kteří o zdravotnictví rozhodují. To oni mají zajistit zdravotní péči pro pacienty a pracovní prostředí ' +
+        'pro zdravotníky za lidských a zákonných podmínek, ale nedělají to.  Situace ve zdravotnictví nemotivuje mladé lékaře přicházet ' +
+        'a starší setrvat. Od těch, kteří zůstávají, je vyžadována práce v rozporu se zákonem.  Přistupujeme na to, protože dobro pacientů ' +
+        'je pro nás na prvním místě. Bereme na sebe odpovědnost, kterou mají nést jiní. A to již není udržitelné. Jsme za své pacienty odpovědní, ' +
+        'když jsme v práci, ne když v ní nejsme!',
+      ]
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
-      answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
-    },
-    {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
-      answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
-    },
-    {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+      question: 'Ale sloužit se přeci musí!',
+      answer: [
+        'Nemusí!',
+        'Pokud nemáte uvedený ve smlouvě vyloženě uvedený směnný provoz, tak opravdu sloužit nemusíte. Obzvláště, pokud by mělo jít přes ' +
+        '150h/rok, které Vám zaměstnavatel může nařidít Lékaři 24 hodinovou pracovní dobu legální nemají a nikdy neměli. Tu mají pouze povolaní, ' +
+        'která spadají pod služební zákon (hasiči, policisté atd.), kdy 24 hodin služby je následováno 48 hodinami odpočinku , a týkají se jich ' +
+        'ještě další specifika. U lékařů je to tedy taktéž nazýváno nešťastně pojmem služba, ale je to v zásadě název „pracovní“ a ne „legislativní“, ' +
+        'jedná se totiž o obyčejný přesčas (většinou, někdy se s tím vejdete do základní pracovní doby). A tam je maximální povolená doba práce ' +
+        '12,5 hodiny v kuse. To že mnohdy lékaři slouží 24 hodin a že mnohdy místo jednoho dne odpočinku, natož dvou, je čeká další den v práci ' +
+        '(a tedy 32 hodin v kuse nebo i více) je běžná praxe. A litera zákona hovoří jasně: VIII.5 Práce přesčas (§ 93)',
+        '„Práci přesčas je možné konat jen výjimečně. Již z toho vyplývá, že práce přesčas nemůže být zaměstnavatelem předem rozvržena v rámci písemného rozvrhu týdenní pracovní doby (§ 84). Nedostatečné personální zabezpečení („podstav“) tudíž nemůže zaměstnavatel řešit tím, že bude dopředu rozvrhovat zaměstnanci pracovní dobu v rozsahu vyšším, než kolik činí stanovená týdenní, zkrácená stanovená týdenní nebo sjednaná kratší pracovní doba zaměstnance.“',
+      ]
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
-      answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
-    },
-    {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+      question: 'A co když sloužím na dohodu? Novela se mě netýká?',
+      answer: [
+        'Netýká se vás to? Přesný opak! Za prvné to, že nyní sloužíte na zvláštní DPČ/DPP je minimálně na hraně, spíše za hranou zákona. ' +
+        '„Sjednání pracovní smlouvy a dohody o provedení práce či dohody o pracovní činnosti souběžně je možné pouze tehdy, pokud je druh ' +
+        'vykonávané práce vymezen odlišně a odlišná práce je skutečně vykonávaná. V situaci, kdy je účelem pouze obcházení zákona, hrozí ' +
+        'zaměstnavateli sankce od kontrolních orgánů.“',
+        'Jak moc se tedy novela dotýká i všech, kterým se třeba povedlo si alespoň na dohodu vyjednat zajímavé finanční podmínky přesčasové ' +
+        'práce/služeb? To nyní končí, přesčasy dosud schované do dohod budou nyní legální v rámci normální pracovní smlouvy a tedy budou ' +
+        'odměňovány podle tabulek a bez jakýkoliv dalších výhod (nově třeba další nárok na dovolenou)…a zaměstnavatelé samozřejmě nyní rádi ' +
+        'použijí argument, že je ilegální mít dvě smlouvy na jednu práci u jednoho zaměstnavatele, což nikomu z nich dosud nevadilo. ' +
+        'Novela zákoníku práce umožňuje zvýšit počet dobrovolných přesčasů ze současných 416 hodin ročně na dvojnásobek a u zdravotních ' +
+        'záchranářů ještě víc. Místo dohod by tak zdravotníci sloužili v rámci svého klasického úvazku.',
+      ]
     },
   ],
 ]
