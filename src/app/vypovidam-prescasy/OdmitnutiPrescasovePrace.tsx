@@ -21,7 +21,25 @@ const reasons = [
     {
       name: 'Hlavní pracovní poměr – služby v rámci pracovního poměru (nikoliv na dohodu) – odpracováno více než 416h přesčasů (k 1.12.23)',
       description:
-        'Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.',
+        'V případě plného pracovního úvazku je zásadní, kolik hodin přesčasové práce již letos zaměstnanec odpracoval. V některých nemocnicích se bude lišit údaj oficiální (mj. uvedený na výplatním lístku) s reálným, jelikož mnoho nemocnic se snaží, aby součet oficiálně vykázaných přesčasů nepřekročil ročně 416 hodin.' +
+        'Přiznává-li zaměstnavatel na výplatních lístcích veškeré přesčasy a jejich součet za leden až září 2023 překročil 416 hodin, postup při ukončení další přesčasové práce je jednoduchý. Stačí zaměstnavateli prokazatelně a v dostatečném předstihu oznámit, že došlo k vyčerpání zákonného limitu a práci přesčas dále nelze přidělovat.' +
+        'Pokud zaměstnavatel množství přesčasů na výplatním lístku upravuje tak, aby nepřekročil roční limit 416 hodin, je nutné si spočítat reálné množství přesčasové práce. V některých nemocnicích lékaři vyplňují fiktivní výkaz (na cca 35 h měsíčně) a reálný, kde mají skutečný počet přesčasových hodin a často i odměnu. U velkého množství lékařů bude bohužel nutné dohledat rozpisy služeb a spočítat přesčasové hodiny ručně. Nezapomínejte odečítat ze služeb, po kterých navazuje pracovní den, 8 hodin náhradního volna, odcházíte-li po službě domů, případně odečítat další poskytnuté náhradní volno. Pokud reálné množství přesčasů překročilo 416 hodin, další postup je stejný jako při „přiznaných“ přesčasech.V případě plného pracovního úvazku je zásadní, kolik hodin přesčasové práce již letos zaměstnanec odpracoval. V některých nemocnicích se bude lišit údaj oficiální (mj. uvedený na výplatním lístku) s reálným, jelikož mnoho nemocnic se snaží, aby součet oficiálně vykázaných přesčasů nepřekročil ročně 416 hodin.' +
+        'Přiznává-li zaměstnavatel na výplatních lístcích veškeré přesčasy a jejich součet za leden až září 2023 překročil 416 hodin, postup při ukončení další přesčasové práce je jednoduchý. Stačí zaměstnavateli prokazatelně a v dostatečném předstihu oznámit, že došlo k vyčerpání zákonného limitu a práci přesčas dále nelze přidělovat.' +
+        'Pokud zaměstnavatel množství přesčasů na výplatním lístku upravuje tak, aby nepřekročil roční limit 416 hodin, je nutné si spočítat reálné množství přesčasové práce. V některých nemocnicích lékaři vyplňují fiktivní výkaz (na cca 35 h měsíčně) a reálný, kde mají skutečný počet přesčasových hodin a často i odměnu. U velkého množství lékařů bude bohužel nutné dohledat rozpisy služeb a spočítat přesčasové hodiny ručně. Nezapomínejte odečítat ze služeb, po kterých navazuje pracovní den, 8 hodin náhradního volna, odcházíte-li po službě domů, případně odečítat další poskytnuté náhradní volno. Pokud reálné množství přesčasů překročilo 416 hodin, další postup je stejný jako při „přiznaných“ přesčasech.' +
+        'Přehled a výpočet přesčasové práce lze přiložit k oznámení o ukončení výkonu práce přesčas buď v okamžiku, kdy jej lékař učiní, nebo dodatečně na žádost zaměstnavatele, pokud zpochybní, že již byl vyčerpán roční limit 416 hodin.' +
+        'Doporučujeme lékařům, kteří vykazují fiktivní množství přesčasů (typicky 35 hodin měsíčně), aby v září až listopadu vykazovali skutečné, resp. maximální množství přesčasové práce, tzn. do 416 hodin.' +
+        'Přehled a výpočet přesčasové práce lze přiložit k oznámení o ukončení výkonu práce přesčas buď v okamžiku, kdy jej lékař učiní, nebo dodatečně na žádost zaměstnavatele, pokud zpochybní, že již byl vyčerpán roční limit 416 hodin.' +
+        'Doporučujeme lékařům, kteří vykazují fiktivní množství přesčasů (typicky 35 hodin měsíčně), aby v září až listopadu vykazovali skutečné, resp. maximální množství přesčasové práce, tzn. do 416 hodin.',
+      href: '#',
+      icon: TrashIcon,
+    },
+    {
+      name: 'Hlavní pracovní poměr – (služby nikoliv na dohodu) – odpracováno mezi 150 a 416 h přesčasů',
+      description:
+        '(nutno přečíst i předchozí část o přesčasech nad 416 hodin)' +
+        'Přečtěte si také Právní stanoviska ČLK' +
+        'Zákoník práce umožňuje přidělovat práci přesčas nad 150 h ročně pouze na základě dohody zaměstnavatele a zaměstnance. Tato dohoda se v některých nemocnicích obnovuje každý rok, často je však součástí pracovní smlouvy! Vyhledejte svou pracovní smlouvu, v případě, že je tam souhlas s přesčasovou prací nad 416 hodin zakotven, váš souhlas trvá během celého pracovního poměru, dokud není vypovězen. výpovědní formulář zde'+
+        'V případě, že se zaměstnavatelem nemáte uzavřenou platnou písemnou dohodu o práci přesčas nad 150 hodin a zároveň nad tento limit práci přesčas akceptujete, souhlas vyslovujete „mlčky“ pro každý nařízený přesčas zvlášť. Přesto je potřeba zaměstnavateli předem dát předem najevo, že v prosinci neplánujete práci nad rámec pracovní smlouvy vykonávat. výpovědní formulář zde',
       href: '#',
       icon: TrashIcon,
     },
@@ -32,15 +50,7 @@ export function OdmitnutiPrescasovePrace() {
         <section>
             <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Stay on top of customer support
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
-          </p>
-        </div>
+       
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {reasons.map((reason) => (
