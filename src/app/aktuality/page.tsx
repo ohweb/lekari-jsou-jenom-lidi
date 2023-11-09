@@ -1,15 +1,22 @@
+import { type Metadata } from 'next'
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
-import { Hero } from '@/components/Hero'
+import { Footer } from '@/components/Footer'
+import { Header } from '@/components/Header'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: 'Aktuality',
+}
+
+export default function AktualityPage() {
   return (
+    <>
+    <Header />
     <main>
-      <Hero />
       <PrimaryFeatures />
       <SecondaryFeatures />
       <CallToAction />
@@ -17,5 +24,7 @@ export default function Home() {
       <Pricing />
       <Faqs />
     </main>
+    <Footer />
+    </>
   )
 }

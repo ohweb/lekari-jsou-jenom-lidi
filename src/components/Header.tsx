@@ -103,22 +103,22 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
+            <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/aktuality">Aktuality</NavLink>
               <NavLink href="/nase-cile">Naše cíle</NavLink>
-              <NavLink href="#features">Právní poradna</NavLink>
-              <NavLink href="#testimonials">Nástěnka hanby</NavLink>
-              <NavLink href="#pricing">O nás</NavLink>
+              <NavLink href="/pravni-poradna">Právní poradna</NavLink>
+              <NavLink href="/#testimonials">Nástěnka hanby</NavLink>
+              <NavLink href="/#pricing">O nás</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div>
-            <Button href="/register" color="blue">
+            <Button href="/vypovidam-prescasy" color="blue">
               <span>
                 Návod na odmítnutí <span className="hidden lg:inline">přesčasů</span>
               </span>
