@@ -191,10 +191,12 @@ export default function ONas() {
                 Zrušení současné podoby novely zákoníku práce (§93a)
               </dt>
               <dd className="mt-1 text-base leading-7 text-gray-600">
-              Novela zákoníku práce (§93a) zvyšuje počet dobrovolných přesčasů pro zdravotníky na 832 hodin ročně, což je kritizováno jako neakceptovatelné. Lékaři nebojují za změnu pracovního režimu, ale za udržitelné zdravotnictví, které ochrání pacienty a zaměstnance.
-Novela umožňuje lékařům přesahovat limit přesčasů (416 hodin/rok), což někteří odmítají. Staronové pravidlo vytváří diskusi o tom, zda je takový krok správný. Lékaři trvají na spravedlivém odměňování a odpočinku za práci v rámci běžné pracovní doby.
-Novela zákoníku práce vzbuzuje kontroverze mezi lékaři, kteří nesouhlasí s navýšením přesčasů na 832 hodin ročně a zdůrazňují potřebu spravedlivého odměňování a odpočinku.
-
+              Novela přináší do zákoníku práce dalších 416 hodin/rok "dobrovolných" přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok.
+              Naprosto chápeme, že práce ve zdravotnictví vyžaduje jistá specifika v legislativě (jako například, jestli je vhodnější sloužit 12h či 24h), a chceme na toto téma vést konstruktivní diskusi. Zdvojnásobení počtu přesčasů příkazem za konstruktivní diskusi nepovažujeme.
+              Nebojujeme za směnný provoz ani za 12hodinové služby!
+              Bojujeme za udržitelné zdravotnictví pro pacienty i pro všechny, kdo v něm pracují.
+              Bojujeme za zákoník práce, který zohlední specifika zdravotnického provozu a zároveň bude motivovat a chránit zaměstnance.
+              Považujeme za přijatelné, stráví-li lékař v práci 12, 16 nebo i 24 hodin s přihlédnutím ke konkrétnímu provozu, bude-li následovat náležitý odpočinek a bude-li odměněn způsobem odpovídajícím náročnosti jeho práce.Jsme si vědomi toho, že dnes české zdravotnictví stojí na přesčasové práci. Uznat a legalizovat tento stav navýšením přesčasového limitu na 832 hodin je krátkozraké a škodlivé řešení.Naši zákonodárci se s tím zjevně spokojili. My ne. Musíme to změnit. Lékaři nesmí být nuceni k přesčasové práci z ekonomických důvodů či pod různými pohrůžkami. Musí být adekvátně ohodnoceni už za práci v základní pracovní době.
               </dd>
             </div>
             <div>

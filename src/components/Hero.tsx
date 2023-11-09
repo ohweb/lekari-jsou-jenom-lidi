@@ -2,7 +2,6 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import LatestBlogPosts from './LatestBlogPosts'
 
 export function Hero() {
   return (
@@ -39,7 +38,6 @@ export function Hero() {
       </div>
 
       </Container>
-<LatestBlogPosts/>
     </>
   )
 }

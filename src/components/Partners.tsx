@@ -17,7 +17,7 @@ export default function Partners(){
     <Container>
         <div className="mt-36 lg:mt-44">
           <p className="font-display text-base text-slate-900">
-            Podpořili nás tyto lékařské spolky
+            Podpořili nás
           </p>
           <ul
             role="list"
