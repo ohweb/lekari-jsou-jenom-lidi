@@ -2,6 +2,9 @@ export default function PravniPoradna()
 {
     return(
         <>
+
+
+        
         Nejčastější otázky k nepřetržitému režimu práce
 
 Jaké jsou rozdíly mezi dosavadním systémem práce lékařů (8 h práce všední den, péče mimo

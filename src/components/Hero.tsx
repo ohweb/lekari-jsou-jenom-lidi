@@ -13,9 +13,11 @@ import logoNarodniCentrumProRodinu from '@/images/partners/logo-narodni-centrum-
 import logoAsociaceStudentuMediciny from '@/images/partners/logo-asociace-studentu-mediciny.png'
 import logoMladiPraktici from '@/images/partners/logo-mladi-praktici.png'
 import logoTrimed from '@/images/partners/logo-trimed.png'
+import LatestBlogPosts from './LatestBlogPosts'
 
 export function Hero() {
   return (
+    <>
     <Container className="pb-16 pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Lékaři jsou{' '}
@@ -46,6 +48,10 @@ export function Hero() {
           <span className="ml-3">Watch video</span>
         </Button>
       </div>
+
+      </Container>
+<LatestBlogPosts/>
+<Container>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
           Podpořili nás tyto lékařské spolky
@@ -87,5 +93,6 @@ export function Hero() {
         </ul>
       </div>
     </Container>
+    </>
   )
 }
