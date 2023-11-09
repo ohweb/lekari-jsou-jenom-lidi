@@ -96,16 +96,13 @@ export function PrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             Klíčové body našeho zájmu
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Lorem ipsum dolor et sit amet 
-          </p>
+
         </div>
         
         <div className="mt-16 mx-auto max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {hlavniBodyZajmu.map((bodZajmu) => (
-              <div className="group relative rounded-lg px-4 py-1 lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
-              <div key={bodZajmu.title} className="flex flex-col">
+              <div key={bodZajmu.title} className="flex flex-col group relative rounded-lg px-4 py-1 lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
                 <h3>
                 <dt className="font-display text-xl text-white">
                   {bodZajmu.title}
@@ -119,7 +116,7 @@ export function PrimaryFeatures() {
                     </a>
                   </p>
                 </dd>
-              </div></div>
+              </div>
             ))}
           </dl>
         </div>
