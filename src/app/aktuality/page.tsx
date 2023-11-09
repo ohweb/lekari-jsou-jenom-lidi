@@ -15,16 +15,8 @@ export const metadata: Metadata = {
 export default function AktualityPage() {
   return (
     <>
-    <Header />
-    <main>
-      <PrimaryFeatures />
-      <SecondaryFeatures />
-      <CallToAction />
-      <Testimonials />
-      <Pricing />
-      <Faqs />
-    </main>
-    <Footer />
+      <main>
+      </main>
     </>
   )
 }

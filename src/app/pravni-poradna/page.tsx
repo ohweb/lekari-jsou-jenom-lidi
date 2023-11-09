@@ -1,118 +1,28 @@
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import { type Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Právní poradna',
+}
+
 export default function PravniPoradna()
 {
     return(
         <>
             <div className="bg-white px-6 py-32 lg:px-8">
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                    <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nejčastější otázky k nepřetržitému režimu práce</h1>
                     <p className="mt-6 text-xl leading-8">
-                        Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-                        aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-                        egestas fringilla sapien.
+                        Ve spolupráci s Mgr. Alešem Buriánkem jsme pro vás připravili nejčastější právní otázky a odpovědi.
                     </p>
-                    <div className="mt-10 max-w-2xl">
-                        <p>
-                            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-                            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-                            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-                            sed turpis id.
-                        </p>
-                        <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                <span>
-                <strong className="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                blanditiis ratione.
-              </span>
-                            </li>
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                <span>
-                <strong className="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non
-                deserunt sunt. Qui irure qui lorem cupidatat commodo.
-              </span>
-                            </li>
-                            <li className="flex gap-x-3">
-                                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                <span>
-                <strong className="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat
-                auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-              </span>
-                            </li>
-                        </ul>
-                        <p className="mt-8">
-                            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                            fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                            adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-                        </p>
-                        <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">From beginner to expert in 3 hours</h2>
-                        <p className="mt-6">
-                            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                            Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus
-                            mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-                            ipsum eu a sed convallis diam.
-                        </p>
-                        <figure className="mt-10 border-l border-indigo-600 pl-9">
-                            <blockquote className="font-semibold text-gray-900">
-                                <p>
-                                    “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
-                                    dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim
-                                    tristique.”
-                                </p>
-                            </blockquote>
-                            <figcaption className="mt-6 flex gap-x-4">
-                                <img
-                                    className="h-6 w-6 flex-none rounded-full bg-gray-50"
-                                    src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                    alt=""
-                                />
-                                <div className="text-sm leading-6">
-                                    <strong className="font-semibold text-gray-900">Maria Hill</strong> – Marketing Manager
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <p className="mt-10">
-                            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-                            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-                        </p>
-                    </div>
-                    <figure className="mt-16">
-                        <img
-                            className="aspect-video rounded-xl bg-gray-50 object-cover"
-                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                            alt=""
-                        />
-                        <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
-                            <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
-                            Faucibus commodo massa rhoncus, volutpat.
-                        </figcaption>
-                    </figure>
-                    <div className="mt-16 max-w-2xl">
-                        <h2 className="text-2xl font-bold tracking-tight text-gray-900">Everything you need to get up and running</h2>
-                        <p className="mt-6">
-                            Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam varius orci dapibus volutpat cras. In
-                            amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie.
-                            Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat
-                            ac. Cras fermentum convallis quam.
-                        </p>
-                        <p className="mt-8">
-                            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-                            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-        
-        Nejčastější otázky k nepřetržitému režimu práce
-
-Jaké jsou rozdíly mezi dosavadním systémem práce lékařů (8 h práce všední den, péče mimo
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Jaké jsou rozdíly mezi dosavadním systémem práce lékařů (8 h práce všední den, péče mimo
 základní pracovní dobu zajištěna přesčasy se střídáním po 24 h v práci) a nepřetržitým režimem,
 kupř. ve 12hodinových směnách?
-Rozdíl mezi uvedenými systémy je dán především povahou provozu, resp. pracovního režimu, do nějž
+                    </h2>
+                    <p className="mt-6">
+                    Rozdíl mezi uvedenými systémy je dán především povahou provozu, resp. pracovního režimu, do nějž
 je lékař zařazen, kdy jeho jednotlivé typy jsou definovány v ustanovení § 78 odst. 1 písm. d) až g)
 zákoníku práce takto:
 d) dvousměnným pracovním režimem režim práce, v němž se zaměstnanci vzájemně pravidelně
@@ -127,27 +37,43 @@ zaměstnanců pracujících v jednosměnném pracovním režimu 40 hodin týdně
 vícesměnným nebo nepřetržitým pracovním režimem 37,5 hodiny týdně a u těch s dvousměnným
 pracovním režimem pak 38,75 hodiny týdně.
 Případný výkon práce přesčas nemá na shora uvedené žádný dopad.
+</p>
 
-Jak mi může zaměstnavatel nařídit nepřetržitý režim práce? Může to udělat jednostranně?
-Obecně platí, že o rozvržení pracovní doby, včetně typu režimu, do nějž bude zaměstnanec zařazen,
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Jak mi může zaměstnavatel nařídit nepřetržitý režim práce? Může to udělat jednostranně?
+                    </h2>
+                        <p className="mt-6">
+                        Obecně platí, že o rozvržení pracovní doby, včetně typu režimu, do nějž bude zaměstnanec zařazen,
 jednostranně rozhoduje zaměstnavatel. Pouze tehdy, pokud by měl zaměstnanec přímo v pracovní
 smlouvě nebo v jejích dodatcích či přílohách, které by byly její nedílnou součástí, uvedeno, že bude
 pracovat v jiném než nepřetržitém pracovním režimu, podléhala by změna typu pracovního režimu
 dohodě mezi zaměstnancem a zaměstnavatelem.
+                        </p>
 
-Komu nemůže zaměstnavatel nařídit nepřetržitý režim práce?
-Nařízení práce v nepřetržitém pracovním režimu žádné omezení nemá (samozřejmě pomineme-li
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Komu nemůže zaměstnavatel nařídit nepřetržitý režim práce? 
+                    </h2>
+                    <p className='mt-6'>
+                    Nařízení práce v nepřetržitém pracovním režimu žádné omezení nemá (samozřejmě pomineme-li
 zaměstnance, pro něž je tato práce dle pracovnělékařského posudku nevhodná).
-
-Jak se můžu bránit vůči nařízení nepřetržitého režimu práce?
-Pokud není zařazení zaměstnance do nepřetržitého režimu práce podmíněno dvoustrannou dohodou,
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Jak se můžu bránit vůči nařízení nepřetržitého režimu práce?
+                    </h2>
+                    <p className='mt-6'>
+                    Pokud není zařazení zaměstnance do nepřetržitého režimu práce podmíněno dvoustrannou dohodou,
 resp. změnou pracovní smlouvy, může se zaměstnanec tomuto postupu zaměstnavatele bránit jen
 nepřímo, například tím, že zaměstnavateli pro případ svého zařazení do nepřetržitého pracovního
 režimu sdělí, že nebude vykonávat žádnou práci přesčas nad 150 hodin nařízené přesčasové práce
 ročně.
-
-Může mi být nařízen nepřetržitý režim práce i když pečuji o dítě? Jestli ano, co s tím?
-Přímý zákaz zařazení zaměstnance pečujícího o malé dítě do nepřetržitého pracovního režimu zákoník
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Může mi být nařízen nepřetržitý režim práce i když pečuji o dítě? Jestli ano, co s tím?
+                    </h2>
+                    <p className='mt-6'>
+                    Přímý zákaz zařazení zaměstnance pečujícího o malé dítě do nepřetržitého pracovního režimu zákoník
 práce nestanoví. Na druhé straně nicméně zákoník práce reflektuje potřebu zvýšené ochrany takových
 zaměstnanců, a to v ustanovení § 241 zákoníku práce, kde se doslova uvádí:
 (1) Zaměstnavatel je povinen přihlížet při zařazování do směn též k potřebám zaměstnankyně nebo
@@ -165,11 +91,15 @@ písemně odůvodnit.
 (3) Požádá-li zaměstnankyně nebo zaměstnanec, jejichž žádosti o kratší pracovní dobu podle odstavce
 2 bylo vyhověno, zaměstnavatele písemně o obnovení nebo částečné obnovení rozsahu původní
 týdenní pracovní doby a zaměstnavatel této žádosti nevyhoví, je povinen to písemně odůvodnit.
-
-Kolik směn mi může zaměstnavatel měsíčně rozvrhnout, pokud jsem vypověděl práci přesčas?
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Kolik směn mi může zaměstnavatel měsíčně rozvrhnout, pokud jsem vypověděl práci přesčas?
 Kolik směn mi může zaměstnavatel měsíčně rozvrhnout, pokud jsem nevypověděl práci přesčas, ale
 konal jsem ji v posledních měsících?
-Skutečnost, že zaměstnanec vypověděl dohodu o práci přesčas nemá na možnost zaměstnavatele
+                    </h2>
+                    <p className='mt-6'>
+                    Skutečnost, že zaměstnanec vypověděl dohodu o práci přesčas nemá na možnost zaměstnavatele
 rozvrhovat pracovní směny, resp. na jejich počet a délku, žádný vliv. Zákoník práce stanoví pouze
 maximální délku směny, a to na 12 hodin. Kratší maximální délku směny stanoví § 94 odst. 1 zákoníku
 práce pro noční práci:
@@ -182,29 +112,44 @@ Jiné zákonné limity pro rozvrh směn stanoveny nejsou, tj. samozřejmě s vý
 stanovené týdenní pracovní doby (viz shora odpověď na první otázku) a nutnosti dodržet nepřetržitý
 denní odpočinek (minimálně 8 hodin během 24 hodin po sobě jdoucích) a nepřetržitý odpočinek v
 týdnu (minimálně 24 hodin).
-
-Může zaměstnavatel při nepřetržitém režimu práce kombinovat různé délky směn? Za jakých
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Může zaměstnavatel při nepřetržitém režimu práce kombinovat různé délky směn? Za jakých
 podmínek?
-
-Ano, zaměstnavatel může kombinovat různě dlouhé směny, a to se stejnými omezeními, která jsou
+                    </h2>
+                    <p className='mt-6'>
+                    Ano, zaměstnavatel může kombinovat různě dlouhé směny, a to se stejnými omezeními, která jsou
 uvedena v odpovědi na předchozí otázku.
-
-Jak poznám situaci, kdy nás zaměstnavatel reálně převedl do nepřetržitého režimu práce, ale snaží
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Jak poznám situaci, kdy nás zaměstnavatel reálně převedl do nepřetržitého režimu práce, ale snaží
 se tak neučinit i formálně (s nutností přiznat příplatek apod.)?
-Převedení do nepřetržitého pracovního režimu z jednosměnného režimu zaměstnanec pozná
+                    </h2>
+                    <p className='mt-6'>
+                    Převedení do nepřetržitého pracovního režimu z jednosměnného režimu zaměstnanec pozná
 především tak, že se mu stanovená délka pracovní doby zkrátí na 37,5 hodiny týdně.
-
-V pracovní smlouvě mám uvedeno: jednosměnný provoz, 40 h týdně.
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    V pracovní smlouvě mám uvedeno: jednosměnný provoz, 40 h týdně.
 Je možné mi nařídit práci např. od 22:00 do 6:00 pětkrát v týdnu (vč. víkendu)?
 Je možné mi nařídit 8hodinovou směnu v jakoukoliv denní dobu v průběhu 7 dnů, budou-li
 dodrženy požadavky týkající se nepřetržitého denního a týdenního odpočinku?
-Ano, takový postup zaměstnavatele je obecně možný.
-
-Pokud je možné mi naplánovat směny v jakoukoliv dobu a střídá mě ve službě kolega nejedná se již
+                    </h2>
+                    <p className='mt-6'>
+                    Ano, takový postup zaměstnavatele je obecně možný.
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Pokud je možné mi naplánovat směny v jakoukoliv dobu a střídá mě ve službě kolega nejedná se již
 o nepřetržitý režim práce? Příklad: kolega A nevypověděl přesčasovou práci a hodlá pokračovat i
 nadále v dosavadním (24h) režimu služeb, ale 3 kolegové B, C, D přesčasovou práci odmítli a mají se
 střídat v 8h směnách během 24 hodin.
-Ano, popsaný režim je i dle shora uvedené definice možno považovat za nepřetržitý pracovní režim,
+                    </h2>
+                    <p className='mt-6'>
+                    Ano, popsaný režim je i dle shora uvedené definice možno považovat za nepřetržitý pracovní režim,
 resp. nepřetržitý provoz. K uvedenému je třeba doplnit, že zaměstnavatel není oprávněn příp.
 zvýhodňovat v rámci rozpisu pracovní doby ty zaměstnance, kteří nedali výpověď dohody o práci
 přesčas (v opačném případě by se jednalo o postup v rozporu s ustanovením § 16 odst. 1 zákoníku
@@ -212,17 +157,25 @@ práce, tedy s povinností zaměstnavatele zajišťovat rovné zacházení se v�
 ohledem na aktuální právní úpravu nepřetržitého denního odpočinku je až do příp. nabytí účinnosti
 zákoníku práce výkon práce v rozsahu 24 hodin po sobě jdoucích nelegální, resp. v rozporu se
 zákonem.
-
-V pracovní smlouvě nemám upravený režim práce ani stanovenou délku týdenní pracovní doby. Je
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    V pracovní smlouvě nemám upravený režim práce ani stanovenou délku týdenní pracovní doby. Je
 možné, aby nám zaměstnavatel nařídil 8hodinové směny, aniž by nás převedl do nepřetržitého
 režimu práce? 4 lékaři na ranní, 2 na odpolední a 2 na noční?
 Je možné nařídit nepřetržitý režim práce při nižším než plném úvazku? Je možně při kratším úvazku
 nařídit 8h směny kdykoliv v průběhu dne?
-Ano, takový postup zaměstnavatele je obecně možný.
-
-Zaměstnavatel mi zrušil již potvrzenou dovolenou na prosinec. Mám s manželkou koupené letenky,
+                    </h2>
+                    <p className='mt-6'>
+                    Ano, takový postup zaměstnavatele je obecně možný.
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Zaměstnavatel mi zrušil již potvrzenou dovolenou na prosinec. Mám s manželkou koupené letenky,
 musí zaměstnavatel nahradit škodu i za manželku?
-V ustanovení § 217 odst. 3 zákoníku práce se doslova uvádí:
+                    </h2>
+                    <p className='mt-6'>
+                    V ustanovení § 217 odst. 3 zákoníku práce se doslova uvádí:
 
 Zaměstnavatel je povinen nahradit zaměstnanci náklady, které mu bez jeho zavinění vznikly proto, že
 zaměstnavatel změnil jemu určenou dobu čerpání dovolené nebo že ho odvolal z dovolené.
@@ -233,11 +186,15 @@ nákladů na takto zmařenou dovolenou nestanoví a tuto problematiku neřeší 
 Dle mého soudu by dle konkrétních okolností bylo možné uvažovat o žalobě manželky na náhradu
 újmy, kterou jí zaměstnavatel způsobil zmařením dovolené v případě, že by změna doby čerpání
 dovolené nebyla objektivně nutná.
-
-Zaměstnavatel mi zrušil do konce roku dovolenou, zbývají mi vyčerpat 3 týdny. Musí mi je proplatit,
+                    </p>
+                    
+                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                    Zaměstnavatel mi zrušil do konce roku dovolenou, zbývají mi vyčerpat 3 týdny. Musí mi je proplatit,
 pokud je nechci převést do dalšího roku nebo je na zaměstnavateli, kolik dovolené mi převede do
 dalšího roku?
-Převedení dovolené do dalšího roku je v uvedeném případě skutečně na rozhodnutí zaměstnavatele.
+                    </h2>
+                    <p className='mt-6'>
+                    Převedení dovolené do dalšího roku je v uvedeném případě skutečně na rozhodnutí zaměstnavatele.
 Nevyčerpaná část dovolené se proplácí pouze v případě ukončení pracovního poměru.
 Pro úplnost níže doplňuji ustanovení § 218 zákoníku práce, které upravuje situaci, kdy nebyla ani do
 30.6. následujícího kalendářního roku vyčerpána dovolená převedená do dalšího roku:
@@ -259,8 +216,9 @@ době oznámení.
 zaměstnanec byl uznán dočasně práce neschopným nebo z důvodu čerpání mateřské anebo
 rodičovské dovolené, je zaměstnavatel povinen určit dobu čerpání této dovolené po skončení těchto
 překážek v práci.
-
-Mgr. Aleš Buriánek
+                    </p>
+</div></div>
+    
         </>
     )
 }
