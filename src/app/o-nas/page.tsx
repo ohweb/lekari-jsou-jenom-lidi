@@ -191,7 +191,7 @@ export default function ONas() {
                 Zrušení současné podoby novely zákoníku práce (§93a)
               </dt>
               <dd className="mt-1 text-base leading-7 text-gray-600">
-              Novela přináší do zákoníku práce dalších 416 hodin/rok "dobrovolných" přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok.
+              Novela přináší do zákoníku práce dalších 416 hodin/rok &quot;dobrovolných&quot; přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok.
               Naprosto chápeme, že práce ve zdravotnictví vyžaduje jistá specifika v legislativě (jako například, jestli je vhodnější sloužit 12h či 24h), a chceme na toto téma vést konstruktivní diskusi. Zdvojnásobení počtu přesčasů příkazem za konstruktivní diskusi nepovažujeme.
               Nebojujeme za směnný provoz ani za 12hodinové služby!
               Bojujeme za udržitelné zdravotnictví pro pacienty i pro všechny, kdo v něm pracují.
@@ -233,7 +233,7 @@ Zákoník práce umožňuje se souhlasem zaměstnance odpracovat 416 hodin přes
               Český stát si cení práce lékaře po škole na 232 Kč/hod hrubého (platová tabulka 38980 Kč) a po atestaci 300Kč/hod hrubého (platová tabulka +-50000 Kč), kdy už je plně zodpovědný nejen sám za sebe, ale i za všechny, kteří pracují pod ním. Tato částka je naprosto neadekvátní a lékaři jsou tak mimojiné ekonomicky nuceni pracovat 1,5 až 2 násobek normální pracovní doby, aby si byl schopen vydělat na živobytí .
 Je potřeba zvýšit základní hodinové ohodnocení lékařů. Dokud je lékař levná pracovní síla, je každému jedno, kolik hodin pracuje. Teprve ve chvíli, kdy bude práce lékaře, jakožto vysoce specializované pracovní síly, adekvátně ohodnocená, a to už v základní pracovní době, přestane se s ní plýtvat a začne se s ní nakládat s rozmyslem. Ale ne ve smyslu omezení péče o pacienty, právě naopak. Aby lékař za své peníze vykonával opravdu jen práci lékaře a věnoval se pacientům. A ne aby trávil čas papírováním, vyplňování tabulek a formulářů či prostě jen držel službu v nějaké nemocnici či na oddělení, kde se za celou noc či víkend skoro nic neděje a ekonomicky ani medicínsky to celé nedává smysl, ale z politických důvodů ji není možné zavřít.
 Toto nám již bylo slíbeno v roce 2013 v Hegerově memorandu (odkaz zde)
-„Přidávání v roce 2012 – v souvislosti s reformou se průměrný plat lékaře zvýší o deset procent a od roku 2013 pak dosáhne 1,5 až trojnásobku průměrné mzdy ve státě, v roce 2012 porostou také platy všem zdravotnickým pracovníkům“
+&ldquo;Přidávání v roce 2012 – v souvislosti s reformou se průměrný plat lékaře zvýší o deset procent a od roku 2013 pak dosáhne 1,5 až trojnásobku průměrné mzdy ve státě, v roce 2012 porostou také platy všem zdravotnickým pracovníkům&rdquo;
               </dd>
             </div>
             
@@ -250,7 +250,7 @@ Toto nám již bylo slíbeno v roce 2013 v Hegerově memorandu (odkaz zde)
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
                 Zrušení současné podoby novely zákoníku práce (paragraf 93a)
-Novela přináší do zákoníku práce dalších 416 hodin/rok "dobrovolných" přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok. 
+Novela přináší do zákoníku práce dalších 416 hodin/rok &quot;dobrovolných&quot; přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok.
 Naprosto chápeme, že práce ve zdravotnictví vyžaduje jistá specifika v legislativě (jako například, jestli je vhodnější sloužit 12h či 24h), a chceme na toto téma vést konstruktivní diskusi. Zdvojnásobení počtu přesčasů příkazem za konstruktivní diskusi nepovažujeme.
 
                 </p>

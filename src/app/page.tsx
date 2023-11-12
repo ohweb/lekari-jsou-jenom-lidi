@@ -1,13 +1,21 @@
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Hero } from '@/components/Hero'
-import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import LatestBlogPosts from '@/components/LatestBlogPosts'
+import fs from "fs";
+
+const getPostMetadata = () => {
+    const folder = "src/posts/";
+    const files = fs.readdirSync(folder)
+    const markdownPosts = files.filter((file) => file.endsWith('.md'))
+    const slugs = markdownPosts.map((file) => file.replace(".md", ""))
+    return slugs
+}
 
 export default function Home() {
+    const posts = getPostMetadata()
   return (
     <main>
       <Hero />
