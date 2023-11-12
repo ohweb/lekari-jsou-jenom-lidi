@@ -7,6 +7,10 @@ export const metadata: Metadata = {
 
 export default function AktualityPage() {
     const posts = getPostMetadata()
+    posts.sort((a,b) => {
+        return b.date.getTime() - a.date.getTime()
+    })
+
     return (
         <>
             <main>
