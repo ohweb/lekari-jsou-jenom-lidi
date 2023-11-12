@@ -30,7 +30,7 @@ export default function PostPage(props: any) {
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{post.data.title}</h1>
                     <p className="mt-6 text-xl leading-8">
-                        {post.data.date.toLocaleDateString('cs-CZ', {day:"numeric", month:"long", year:"numeric"})}
+                        {post.data.perex}
                     </p>
                     <div className="mt-10 max-w-2xl">
                         <p>

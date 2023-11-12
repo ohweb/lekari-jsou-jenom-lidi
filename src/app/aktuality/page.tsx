@@ -37,7 +37,7 @@ export default function AktualityPage() {
                                                     {post.title}
                                                 </a>
                                             </h3>
-                                            <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.title}</p>
+                                            <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.perex}</p>
                                         </div>
                                     </article>
                                 ))}
