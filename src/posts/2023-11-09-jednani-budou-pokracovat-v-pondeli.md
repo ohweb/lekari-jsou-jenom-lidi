@@ -1,10 +1,8 @@
 ---
 title: Jednání budou pokračovat v pondělí.
-description:
+perex: Dnes se na půdě MZ ČR uskutečnilo jednání o řešení situace ve zdravotnictví, tentokrát bez účasti pana ministra. Jednání vedl ředitel právní sekce ministerstva Radek Policar. Ministerstvo předložilo několik návrhů s cílem optimalizovat předatestační vzdělávání a v dlouhodobém horizontu kultivovat pracovní podmínky českých zdravotníků.
 date: 2023-11-09
 ---
-Dnes se na půdě MZ ČR uskutečnilo jednání o řešení situace ve zdravotnictví, tentokrát bez účasti pana ministra. Jednání vedl ředitel právní sekce ministerstva Radek Policar. Ministerstvo předložilo několik návrhů s cílem optimalizovat předatestační vzdělávání a v dlouhodobém horizontu kultivovat pracovní podmínky českých zdravotníků.
-
 Na většině z nich panovala všeobecná shoda mezi navrhovateli i zástupci ČLK a odborových organizací působících ve zdravotnictví. Komora nabídla aktivní účast a byla domluvena budoucí spolupráce v otázkách postgraduálního vzdělávání a kontroly dodržování zákoníku práce.
 
 Ke shodě nedošlo při projednávání problematiky odměňování zdravotníků. Trváme na řešení, které doručí prostředky určené na zvýšení odměn všem lékařům. Bez ohledu na odbornost, věk a na to, jestli jsou odměňováni platem nebo mzdou. Proto nemůžeme akceptovat nabídku, která myslí pouze na přímo řízené nemocnice.

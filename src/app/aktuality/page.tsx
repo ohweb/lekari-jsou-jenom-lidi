@@ -17,6 +17,7 @@ const getPostMetadata = (): PostMetadata[] => {
         const matterResult = matter(fileContents)
         return {
             title: matterResult.data.title,
+            perex: matterResult.data.perex,
             date: matterResult.data.date,
             slug: fileName.replace('.md', '')
         }
@@ -38,10 +39,10 @@ export default function AktualityPage() {
                       </p>
                       <div className="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16">
                           {posts.map((post) => (
-                              <article key={post.date} className="flex max-w-xl flex-col items-start justify-between">
+                              <article key={post.slug} className="flex max-w-xl flex-col items-start justify-between">
                                   <div className="flex items-center gap-x-4 text-xs">
-                                      <time dateTime={post.date} className="text-gray-500">
-                                          {post.date.toString()}
+                                      <time dateTime={post.date.toString()} className="text-gray-500">
+                                          {post.date.toLocaleDateString("cs-CZ", {day:"numeric", month:"long", year:"numeric"})}
                                       </time>
                                   </div>
                                   <div className="group relative">
