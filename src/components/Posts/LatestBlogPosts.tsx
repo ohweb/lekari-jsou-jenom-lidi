@@ -1,9 +1,10 @@
 import { Container } from "@/components/Container"
-import getPostMetadata from "@/components/getPostMetadata";
+import getPostMetadata from "@/components/Posts/getPostMetadata";
 
 
   export default function LatestBlogPosts() {
-  const posts = getPostMetadata()
+  const posts = getPostMetadata(3)
+
     return (
       <section
       id="aktuality"

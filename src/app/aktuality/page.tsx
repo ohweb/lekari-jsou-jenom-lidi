@@ -1,5 +1,5 @@
 import {type Metadata} from 'next'
-import getPostMetadata from "@/components/getPostMetadata";
+import getPostMetadata from "@/components/Posts/getPostMetadata";
 
 export const metadata: Metadata = {
     title: 'Aktuality',
@@ -7,9 +7,6 @@ export const metadata: Metadata = {
 
 export default function AktualityPage() {
     const posts = getPostMetadata()
-    posts.sort((a,b) => {
-        return b.date.getTime() - a.date.getTime()
-    })
 
     return (
         <>

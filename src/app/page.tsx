@@ -3,7 +3,7 @@ import {Faqs} from '@/components/Faqs'
 import {Hero} from '@/components/Hero'
 import {PrimaryFeatures} from '@/components/PrimaryFeatures'
 import {Testimonials} from '@/components/Testimonials'
-import LatestBlogPosts from '@/components/LatestBlogPosts'
+import LatestBlogPosts from '@/components/Posts/LatestBlogPosts'
 
 import avatarImageFemale1 from '@/images/avatars/doctor-female-01.png'
 import avatarImageFemale2 from '@/images/avatars/doctor-female-02.png'
