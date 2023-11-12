@@ -1,28 +1,32 @@
-import fs from "fs"
+import fs from 'fs'
+import Markdown from "markdown-to-jsx"
+import matter from "gray-matter"
+import moment from "moment";
 
 const getPostContent = (slug: string) => {
     const folder =     "src/posts/"
     const file = `${folder}${slug}.md`
     const content = fs.readFileSync(file, "utf-8")
-    return content
+    const matterResult = matter(content)
+    return matterResult
 }
 
-export default function AktualitaPage(props: any) {
+export default function PostPage(props: any) {
 
     const slug = props.params.slug
-    const content = getPostContent(slug)
+    const post = getPostContent(slug)
 
     return (
         <>
             <div className="bg-white px-6 py-32 lg:px-8">
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Post title</h1>
+                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{post.data.title}</h1>
                     <p className="mt-6 text-xl leading-8">
-                        Post content
+                        {post.data.date.toLocaleDateString('cs-CZ', {day:"numeric", month:"long", year:"numeric"})}
                     </p>
                     <div className="mt-10 max-w-2xl">
                         <p>
-                            {content}
+                            <Markdown>{post.content}</Markdown>
                         </p>
                     </div>
                 </div>

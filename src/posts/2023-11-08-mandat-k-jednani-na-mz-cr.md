@@ -1,6 +1,6 @@
 ---
 title: Mandát k jednání na MZ ČR
-date: 2023-11-09
+date: 2023-11-08
 ---
 Již více než 6 tisíc lékařů odmítlo od 1. prosince vykonávat nelegální přesčasovou práci - jinými slovy se rozhodlo dodržovat zákony České republiky.
 Na mapě jsou zobrazena zdravotnická zařízení, ve kterých proto hrozí částečné nebo úplné omezení poskytovaných zdravotních služeb.
