@@ -1,28 +1,9 @@
 import { Container } from "@/components/Container"
-import fs from "fs";
-import matter from "gray-matter";
-import {PostMetadata} from "@/components/PostMetadata";
+import getPostMetadata from "@/components/getPostMetadata";
 
-const getPostsMetadata = (): PostMetadata[] => {
-  const folder = "src/posts/";
-  const files = fs.readdirSync(folder)
-  const markdownPosts = files.filter((file) => file.endsWith('.md'))
-
-  const posts = markdownPosts.map((fileName) => {
-    const fileContents = fs.readFileSync(`${folder}${fileName}`, 'utf-8')
-    const matterResult = matter(fileContents)
-    return {
-      title: matterResult.data.title,
-      perex: matterResult.data.perex,
-      date: matterResult.data.date,
-      slug: fileName.replace('.md', '')
-    }
-  })
-  return posts
-}
 
   export default function LatestBlogPosts() {
-  const posts = getPostsMetadata()
+  const posts = getPostMetadata()
     return (
       <section
       id="aktuality"

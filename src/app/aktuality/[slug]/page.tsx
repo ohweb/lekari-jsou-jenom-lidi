@@ -2,6 +2,7 @@ import fs from 'fs'
 import Markdown from "markdown-to-jsx"
 import matter from "gray-matter"
 import moment from "moment";
+import getPostMetadata from "@/components/getPostMetadata";
 
 const getPostContent = (slug: string) => {
     const folder =     "src/posts/"
@@ -9,6 +10,13 @@ const getPostContent = (slug: string) => {
     const content = fs.readFileSync(file, "utf-8")
     const matterResult = matter(content)
     return matterResult
+}
+
+export const generateStaticParams = async () => {
+    const posts = getPostMetadata()
+    return posts.map((post)=>{
+        slug: post.slug
+    })
 }
 
 export default function PostPage(props: any) {
