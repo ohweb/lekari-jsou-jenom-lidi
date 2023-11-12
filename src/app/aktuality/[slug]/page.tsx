@@ -5,7 +5,7 @@ import moment from "moment";
 import getPostMetadata from "@/components/getPostMetadata";
 
 const getPostContent = (slug: string) => {
-    const folder =     "src/posts/"
+    const folder =     "posts/"
     const file = `${folder}${slug}.md`
     const content = fs.readFileSync(file, "utf-8")
     const matterResult = matter(content)
@@ -14,9 +14,9 @@ const getPostContent = (slug: string) => {
 
 export const generateStaticParams = async () => {
     const posts = getPostMetadata()
-    return posts.map((post)=>{
+    return posts.map((post)=> ({
         slug: post.slug
-    })
+    }))
 }
 
 export default function PostPage(props: any) {
