@@ -24,7 +24,7 @@ export function Hero() {
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Na základě schválení novelizace zákoníku práce, která vstoupí v účinnosti 1. 10. 2023, vypovídáme veškeré dobrovolné přesčasy k 1. 12. 2023.
       </p>
-      <div className="mt-10 flex justify-center gap-x-6">
+      <div className="mt-10 flex justify-center gap-x-6 hidden">
         <Button href="/register">Get 6 months free</Button>
         <Button href="/" variant="outline">
           <svg

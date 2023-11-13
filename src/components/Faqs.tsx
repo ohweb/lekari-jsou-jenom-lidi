@@ -86,7 +86,7 @@ export function Faqs() {
             Časté otázky a mýty
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Jaké jsou nejčastější otázky, kterým čelíme a mýty, které opakovaně vyvracíme? Zde naleznete odpovědi nejčastější otázky o přesčasech, odpovědnosti za péči o pacienty, právních aspektech pracovních smluv a dalších klíčových tématech, které formují každodenní život zdravotnických pracovníků.
+            Jaké jsou nejčastější otázky, kterým čelíme a mýty, které opakovaně vyvracíme? Zde naleznete odpovědi na nejčastější otázky o přesčasech, odpovědnosti za péči o pacienty, právních aspektech pracovních smluv a dalších klíčových tématech, které formují každodenní život zdravotnických pracovníků.
           </p>
         </div>
         <ul

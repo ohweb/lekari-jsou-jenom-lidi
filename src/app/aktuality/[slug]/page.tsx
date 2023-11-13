@@ -33,9 +33,9 @@ export default function PostPage(props: any) {
                         {post.data.perex}
                     </p>
                     <div className="mt-10 max-w-2xl">
-                        <p>
+                        <article className="prose lg:prose-xl">
                             <Markdown>{post.content}</Markdown>
-                        </p>
+                        </article>
                     </div>
                 </div>
             </div>

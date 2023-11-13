@@ -86,6 +86,7 @@ function MobileNavigation() {
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
             <MobileNavLink href="/aktuality">Aktuality</MobileNavLink>
+            <MobileNavLink href="/nase-cile">Naše cíle</MobileNavLink>
             <MobileNavLink href="/pribehy">Vaše příběhy</MobileNavLink>
             <MobileNavLink href="/pravni-poradna">Právní poradna</MobileNavLink>
             <MobileNavLink href="/o-nas">O nás</MobileNavLink>
@@ -107,6 +108,7 @@ export function Header() {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/aktuality">Aktuality</NavLink>
+              <NavLink href="/nase-cile">Naše cíle</NavLink>
               <NavLink href="/pribehy">Vaše příběhy</NavLink>
               <NavLink href="/pravni-poradna">Právní poradna</NavLink>
               <NavLink href="/o-nas">O nás</NavLink>
