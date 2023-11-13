@@ -63,7 +63,7 @@ export function Footer() {
       <Container>
         <div className="py-16">
           <Logo className="mx-auto h-10 w-auto" />
-          <div className="mt-10 flex justify-center"><a className="mx-auto w-auto text-sm" href="mailto:sekcemladychlekaruclk@gmail.com">E-mail: sekcemladychlekaruclk@gmail.com</a></div>
+          <div className="mt-10 flex justify-center"><a className="mx-auto w-auto text-sm" href="mailto:nebudmyval@gmail.com">E-mail: nebudmyval@gmail.com</a></div>
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="/aktuality">Aktuality</NavLink>

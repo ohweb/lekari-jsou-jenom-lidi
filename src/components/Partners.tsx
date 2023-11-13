@@ -15,10 +15,6 @@ import logoTrimed from '@/images/partners/logo-trimed.png'
 export default function Partners(){
     return (
     <Container>
-        <div className="mt-36 lg:mt-44">
-          <p className="font-display text-base text-slate-900">
-            Podpořili nás
-          </p>
           <ul
             role="list"
             className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
@@ -54,7 +50,6 @@ export default function Partners(){
               </li>
             ))}
           </ul>
-        </div>
       </Container>
       )
 }

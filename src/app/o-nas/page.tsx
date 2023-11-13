@@ -1,19 +1,21 @@
 import Partners from '@/components/Partners'
 import { type Metadata } from 'next'
 
+import tymMyval from '@/images/nas-tym/tym-myval.jpg'
+import tymPrada from '@/images/nas-tym/tym-prada-honza.jpg'
+import tymPavelka from '@/images/nas-tym/tym-pavelka-martin.jpg'
+import tymHilserova from '@/images/nas-tym/tym-hilserova-monika.jpg'
+import tymPitrova from '@/images/nas-tym/tym-pitrova-hana.jpg'
+import tymSvobodova from '@/images/nas-tym/tym-svobodova-marie.jpg'
+import tymDunajova from '@/images/nas-tym/tym-dunajova-klara.jpg'
+import tymSplino from '@/images/nas-tym/tym-splino-filip.jpg'
+import Image from "next/image";
+
 export const metadata: Metadata = {
   title: 'O nás',
 }
 
-const stats = [
-  { label: 'Transactions every 24 hours', value: '44 million' },
-  { label: 'Assets under holding', value: '$119 trillion' },
-  { label: 'New users annually', value: '46,000' },
-]
-
 const values = [
-
-
   {
     name: 'Be world-class',
     description:
@@ -45,267 +47,32 @@ const values = [
       'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
   },
 ]
-const team = [
-  {
-    name: 'Michael Foster',
-    role: 'Co-Founder / CTO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-  },
-  // More people...
+
+const images = [
+  {image: tymMyval },
+  {image: tymPrada },
+  {image: tymPavelka },
+  {image: tymHilserova },
+  {image: tymPitrova },
+  {image: tymSvobodova },
+  {image: tymDunajova },
+  {image: tymSplino },
 ]
 
 export default function ONas() {
     return(
         <>
-        Hero section
-
-        Naše cíle
-
-        Proti čemu bojujeme
-
-        Kdo jsme
-
-        Kdo nás podpořil
-
-        Kontakt
-        <main className="isolate">
-        {/* Hero section */}
-        <div className="relative isolate -z-10">
-          <svg
-            className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
-                width={200}
-                height={200}
-                x="50%"
-                y={-1}
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M.5 200V.5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
-              <path
-                d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-                strokeWidth={0}
-              />
-            </svg>
-            <rect width="100%" height="100%" strokeWidth={0} fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" />
-          </svg>
-          <div
-            className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
-            aria-hidden="true"
-          >
-            <div
-              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-              style={{
-                clipPath:
-                  'polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)',
-              }}
-            />
-          </div>
-          <div className="overflow-hidden">
-            <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
-              <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                    We’re changing the way people connect.
-                  </h1>
-                  <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                    mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                    aliqua.
-                  </p>
-                </div>
-                <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                    <div className="relative">
-                      <img
-                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                  <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                    <div className="relative">
-                      <img
-                        src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative">
-                      <img
-                        src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                    <div className="relative">
-                      <img
-                        src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative">
-                      <img
-                        src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                        alt=""
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Naše cíle
-          </h2>
-          <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
-            
-            <div>
-              <dt className="text-base font-semibold leading-7 text-gray-900">
-                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  
-                </div>
-                Zrušení současné podoby novely zákoníku práce (§93a)
-              </dt>
-              <dd className="mt-1 text-base leading-7 text-gray-600">
-              Novela přináší do zákoníku práce dalších 416 hodin/rok &quot;dobrovolných&quot; přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok.
-              Naprosto chápeme, že práce ve zdravotnictví vyžaduje jistá specifika v legislativě (jako například, jestli je vhodnější sloužit 12h či 24h), a chceme na toto téma vést konstruktivní diskusi. Zdvojnásobení počtu přesčasů příkazem za konstruktivní diskusi nepovažujeme.
-              Nebojujeme za směnný provoz ani za 12hodinové služby!
-              Bojujeme za udržitelné zdravotnictví pro pacienty i pro všechny, kdo v něm pracují.
-              Bojujeme za zákoník práce, který zohlední specifika zdravotnického provozu a zároveň bude motivovat a chránit zaměstnance.
-              Považujeme za přijatelné, stráví-li lékař v práci 12, 16 nebo i 24 hodin s přihlédnutím ke konkrétnímu provozu, bude-li následovat náležitý odpočinek a bude-li odměněn způsobem odpovídajícím náročnosti jeho práce.Jsme si vědomi toho, že dnes české zdravotnictví stojí na přesčasové práci. Uznat a legalizovat tento stav navýšením přesčasového limitu na 832 hodin je krátkozraké a škodlivé řešení.Naši zákonodárci se s tím zjevně spokojili. My ne. Musíme to změnit. Lékaři nesmí být nuceni k přesčasové práci z ekonomických důvodů či pod různými pohrůžkami. Musí být adekvátně ohodnoceni už za práci v základní pracovní době.
-              </dd>
-            </div>
-            <div>
-              <dt className="text-base font-semibold leading-7 text-gray-900">
-                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  
-                </div>
-                Nastavení dlouhodobě udržitelných pracovních podmínek
-              </dt>
-              <dd className="mt-1 text-base leading-7 text-gray-600">
-                Pro budoucnost českého veřejného zdravotnictví je naprosto zásadní vytvořit fungující systém, do kterého lékař v 25 letech vstoupí a opustí ho za 40 let. To se momentálně neděje. Vzhledem k poměrům, které v něm panují, lékaři opouští veřejné zdravotnictví ve chvíli, kdy můžou. Nebo kdy musí, protože už tisíce hodin přesčasů nevydrží či musí z něčeho zaplatit hypotéku. Jak tedy zajistit, aby lékaři (a obecně zdravotníci) neodcházeli? Snadno, dát jim normální pracovní podmínky a plat odpovídající vysoce kvalifikované pracovní síle.
-              </dd>
-            </div>
-            <div>
-              <dt className="text-base font-semibold leading-7 text-gray-900">
-                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  
-                </div>
-                Důsledné dodržování a kontrola přesčasové práce
-              </dt>
-              <dd className="mt-1 text-base leading-7 text-gray-600">
-                Zákoník práce se zejména v nemocnicích plošně a systematicky porušuje. Stanovuje maximální délku směny na 12 hodin. Zcela běžně se pracuje dvojnásobek, někde i více než 72 hodin bez přestávky na odpočinek. Nebojujeme za směnný provoz ani za 12hodinové služby. Bojujeme za zákoník práce, který zohlední specifika zdravotnického provozu a zároveň bude motivovat a chránit zaměstnance.
-Zákoník práce umožňuje se souhlasem zaměstnance odpracovat 416 hodin přesčasové práce ročně. Limit bývá u mnoha lékařů překročen již květnu, nezřídka i dříve. Ale pracuje se dál. Co na to stát? Co na to orgány inspekce práce? Nikdy nic nezjistily. Pracuje se dál a všem je to jedno. Nikoho to netrápí, protože pracujeme levně.
-</dd>
-            </div>
-            <div>
-              <dt className="text-base font-semibold leading-7 text-gray-900">
-                <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  
-                </div>
-                Navýšení ceny práce lékaře v základní pracovní době na důstojnou úroveň a zajištění valorizace
-              </dt>
-              <dd className="mt-1 text-base leading-7 text-gray-600">
-              Český stát si cení práce lékaře po škole na 232 Kč/hod hrubého (platová tabulka 38980 Kč) a po atestaci 300Kč/hod hrubého (platová tabulka +-50000 Kč), kdy už je plně zodpovědný nejen sám za sebe, ale i za všechny, kteří pracují pod ním. Tato částka je naprosto neadekvátní a lékaři jsou tak mimojiné ekonomicky nuceni pracovat 1,5 až 2 násobek normální pracovní doby, aby si byl schopen vydělat na živobytí .
-Je potřeba zvýšit základní hodinové ohodnocení lékařů. Dokud je lékař levná pracovní síla, je každému jedno, kolik hodin pracuje. Teprve ve chvíli, kdy bude práce lékaře, jakožto vysoce specializované pracovní síly, adekvátně ohodnocená, a to už v základní pracovní době, přestane se s ní plýtvat a začne se s ní nakládat s rozmyslem. Ale ne ve smyslu omezení péče o pacienty, právě naopak. Aby lékař za své peníze vykonával opravdu jen práci lékaře a věnoval se pacientům. A ne aby trávil čas papírováním, vyplňování tabulek a formulářů či prostě jen držel službu v nějaké nemocnici či na oddělení, kde se za celou noc či víkend skoro nic neděje a ekonomicky ani medicínsky to celé nedává smysl, ale z politických důvodů ji není možné zavřít.
-Toto nám již bylo slíbeno v roce 2013 v Hegerově memorandu (odkaz zde)
-&ldquo;Přidávání v roce 2012 – v souvislosti s reformou se průměrný plat lékaře zvýší o deset procent a od roku 2013 pak dosáhne 1,5 až trojnásobku průměrné mzdy ve státě, v roce 2012 porostou také platy všem zdravotnickým pracovníkům&rdquo;
-              </dd>
-            </div>
-            
-          </dl>
-        </div>
-      </div>
-    </div>
-
-        {/* Content section */}
-        <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Naše cíle</h2>
-            <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
-              <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                <p className="text-xl leading-8 text-gray-600">
-                Zrušení současné podoby novely zákoníku práce (paragraf 93a)
-Novela přináší do zákoníku práce dalších 416 hodin/rok &quot;dobrovolných&quot; přesčasů pro zdravotníky. S již existujícím limitem 416 hodin/rok to dává 832 hodin přesčasů za rok, což je naprosto neakceptovatelné. Jen pro představu, dělá to dohromady možnost pracovat 365 8 hodinových směn či 243 12 hodinových směn za rok.
-Naprosto chápeme, že práce ve zdravotnictví vyžaduje jistá specifika v legislativě (jako například, jestli je vhodnější sloužit 12h či 24h), a chceme na toto téma vést konstruktivní diskusi. Zdvojnásobení počtu přesčasů příkazem za konstruktivní diskusi nepovažujeme.
-
-                </p>
-                <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                  <p>
-                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed
-                    amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius
-                    sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.
-                    Mattis mauris semper sed amet vitae sed turpis id.
-                  </p>
-                  <p className="mt-10">
-                    Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
-                    auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et
-                    ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-                  </p>
-                </div>
-              </div>
-              <div className="lg:flex lg:flex-auto lg:justify-center">
-                <dl className="w-64 space-y-8 xl:w-80">
-                  {stats.map((stat) => (
-                    <div key={stat.label} className="flex flex-col-reverse gap-y-4">
-                      <dt className="text-base leading-7 text-gray-600">{stat.label}</dt>
-                      <dd className="text-5xl font-semibold tracking-tight text-gray-900">{stat.value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Image section */}
-        <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          <img
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-            alt=""
-            className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
-          />
-        </div>
 
         {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our values</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Náš tým</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-              accusamus quisquam.
             </p>
           </div>
-          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {values.map((value) => (
-              <div key={value.name}>
-                <dt className="font-semibold text-gray-900">{value.name}</dt>
-                <dd className="mt-1 text-gray-600">{value.description}</dd>
-              </div>
+          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-8 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            {images.map((value) => (
+                <Image src={value.image} alt="člen týmu" key={value.image.src} />
             ))}
           </dl>
         </div>
@@ -336,75 +103,12 @@ Naprosto chápeme, že práce ve zdravotnictví vyžaduje jistá specifika v leg
 
 
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <Partners/>
             <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-              Trusted by the world’s most innovative teams
+              Podpořili nás
             </h2>
-
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-                alt="Transistor"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-                alt="Reform"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-                alt="Tuple"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                alt="SavvyCal"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
-                width={158}
-                height={48}
-              />
-            </div>
+            <Partners/>
           </div>
         </div>
-
-        {/* Team section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our team</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Sit facilis neque ab nulla vel. Cum eos in laudantium. Temporibus eos totam in dolorum. Nemo vel facere
-              repellendus ut eos dolores similique.
-            </p>
-          </div>
-          <ul
-            role="list"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
-          >
-            {team.map((person) => (
-              <li key={person.name}>
-                <img className="mx-auto h-24 w-24 rounded-full" src={person.imageUrl} alt="" />
-                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                <p className="text-sm leading-6 text-gray-600">{person.role}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-      </main>
         </>
     )
 }
