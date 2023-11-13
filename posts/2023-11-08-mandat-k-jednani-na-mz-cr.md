@@ -8,3 +8,5 @@ Na mapě jsou zobrazena zdravotnická zařízení, ve kterých proto hrozí čá
 Na dnešní schůzku na Ministerstvu zdravotnictví přicházíme s jasnými požadavky. Víme, že splnění našich požadavků je reálné. Víme, že situace je vážná. Víme, jaký máme mandát.
 
 Apelujeme na ministra zdravotnictví, aby se této situaci postavil čelem a začal ji konečně řešit.
+
+![Mapa výpovědí a nelegálních přesčasů v celé ČR](/images/mapa-vypovedi-a-nelegalnich-prescasu.png)

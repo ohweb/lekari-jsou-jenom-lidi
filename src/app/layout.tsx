@@ -9,7 +9,7 @@ import { Footer } from '@/components/Footer'
 export const metadata: Metadata = {
   title: {
     template: '%s - Lékaři jsou jenom lidi - template title',
-    default: 'Lékaři jsou jenom lidi - default title',
+    default: 'Lékaři jsou jenom lidi',
   },
   description:
     'blablabla desccription',

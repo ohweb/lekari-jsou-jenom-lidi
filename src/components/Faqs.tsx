@@ -83,11 +83,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Časté otázky a mýty
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Jaké jsou nejčastější otázky, kterým čelíme a mýty, které opakovaně vyvracíme? Zde naleznete odpovědi nejčastější otázky o přesčasech, odpovědnosti za péči o pacienty, právních aspektech pracovních smluv a dalších klíčových tématech, které formují každodenní život zdravotnických pracovníků.
           </p>
         </div>
         <ul

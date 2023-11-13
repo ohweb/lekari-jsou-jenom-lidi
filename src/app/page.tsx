@@ -54,16 +54,15 @@ const limitedTestimonials = [
     ],
 ]
 
-
 export default function Home() {
     return (
         <main>
             <Hero/>
             <LatestBlogPosts/>
             <PrimaryFeatures/>
+            <Faqs/>
             <CallToAction/>
             <Testimonials testimonials={limitedTestimonials}/>
-            <Faqs/>
         </main>
     )
 }
