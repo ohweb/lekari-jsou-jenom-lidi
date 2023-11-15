@@ -8,11 +8,11 @@ import { Footer } from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Lékaři jsou jenom lidi - template title',
+    template: '%s - Lékaři jsou jenom lidi',
     default: 'Lékaři jsou jenom lidi',
   },
   description:
-    'blablabla desccription',
+    'Na základě schválení novelizace zákoníku práce, která vstoupí v účinnosti 1. 10. 2023, vypovídáme veškeré dobrovolné přesčasy k 1. 12. 2023.',
 }
 
 const inter = Inter({
