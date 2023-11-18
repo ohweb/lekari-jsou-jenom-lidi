@@ -1,5 +1,4 @@
 import {Testimonials} from '@/components/Testimonials'
-import {Container} from '@/components/Container'
 import {Metadata} from 'next'
 import avatarImageFemale1 from "@/images/avatars/doctor-female-01.png";
 import avatarImageFemale2 from "@/images/avatars/doctor-female-02.png";

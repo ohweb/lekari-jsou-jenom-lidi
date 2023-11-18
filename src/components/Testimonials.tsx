@@ -1,6 +1,6 @@
 import Image, {StaticImageData} from 'next/image'
-
 import {Container} from '@/components/Container'
+import React from "react";
 
 function QuoteIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     return (

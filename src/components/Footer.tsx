@@ -70,6 +70,7 @@ export function Footer() {
               <NavLink href="/nase-cile">Naše cíle</NavLink>
               <NavLink href="/pribehy">Vaše příběhy</NavLink>
               <NavLink href="/pravni-poradna">Právní poradna</NavLink>
+              <NavLink href="/medialni-vystupy">Mediální výstupy</NavLink>
               <NavLink href="/o-nas">O nás</NavLink>
             </div>
           </nav>

@@ -89,6 +89,7 @@ function MobileNavigation() {
             <MobileNavLink href="/nase-cile">Naše cíle</MobileNavLink>
             <MobileNavLink href="/pribehy">Vaše příběhy</MobileNavLink>
             <MobileNavLink href="/pravni-poradna">Právní poradna</MobileNavLink>
+            <MobileNavLink href="/medialni-vystupy">Mediální výstupy</MobileNavLink>
             <MobileNavLink href="/o-nas">O nás</MobileNavLink>
             <MobileNavLink href="/vypovidam-prescasy">Odmítnutí přesčasů</MobileNavLink>
           </Popover.Panel>
@@ -112,6 +113,7 @@ export function Header() {
               <NavLink href="/nase-cile">Naše cíle</NavLink>
               <NavLink href="/pribehy">Vaše příběhy</NavLink>
               <NavLink href="/pravni-poradna">Právní poradna</NavLink>
+              <NavLink href="/medialni-vystupy">Mediální výstupy</NavLink>
               <NavLink href="/o-nas">O nás</NavLink>
             </div>
           </div>
