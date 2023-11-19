@@ -2,6 +2,13 @@ import mediaOutlets from "@/app/medialni-vystupy/media-outlets";
 
 const mediaOutputs = [
     {
+        title: "Otázky Václava Moravce - Lékařské přesčasy",
+        date: new Date("2023-11-19"),
+        perex: "Lékařské přesčasy. Diskuse viceprezidenta České lékařské komory Jana Přády a náměstka ministra zdravotnictví Václava Pláteníka.",
+        link: "https://www.ceskatelevize.cz/porady/1126672097-otazky-vaclava-moravce/223411030511119/cast/1012159/",
+        source: mediaOutlets.ceskaTelevize
+    },
+    {
         title: "Lékaře vyděsilo 832 hodin přesčasů. „Za těchto podmínek říkáme ne,“ varovali vládu",
         date: new Date("2023-09-04"),
         perex: "Sekce mladých lékařů České lékařské komory (ČLK) vyzvala politiky, aby Sněmovna neschválila novelu zákoníku práce v navrhované podobě. Předloha umožňuje zdvojnásobit počet hodin přesčasů u lékařů na 832 hodin ročně, pro záchranáře by šlo o 1000 hodin přesčasů za rok. Pokud novela projde, lékaři pohrozili, že přestanou od 1. prosince sloužit dobrovolné přesčasy. Předseda sekce Jan Přáda řekl v pondělí novinářům, že do výzvy se zapojilo 4000 z 20.000 lékařů sloužících v nemocnicích.",
