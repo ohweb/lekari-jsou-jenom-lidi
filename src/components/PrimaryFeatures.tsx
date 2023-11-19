@@ -1,10 +1,4 @@
-'use client'
-
-import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Tab } from '@headlessui/react'
-import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 
@@ -21,7 +15,7 @@ const hlavniBodyZajmu = [
   },
   {
     title: "Upravení odměňování samostatným zákonem",
-    description: "Požadujeme samostatným zákonem upravit odměňování zdravotníků a lékařů, které se bude odvíjet od náročnosti profese a naplní závěry Memoranda, které v roce 2011 podepsala Vláda ČR s Lékařským odborovým klubem – Svazem českých lékařů po akci „Děkujeme, odcházíme“ a slibu, který dal ministr zdravotnictví doc. MUDr. Leoš Heger, CSc. Odborovému svazu zdravotnictví a sociální péče ČR, že se adekvátně navýšení platů lékařů zvýší platy ostatních zdravotníků.",
+    description: "Požadujeme 1,5 až 3 násobek průměrné (národní) hrubé mzdy (tj 60 000 Kč pro L1, 80 000 pro L2, 120 000 pro L3 už v roce 2024),  aby bylo pro lékaře motivující zůstat i po atestaci ve veřejném zdravotnictví. Jedinou dlouhodobou zárukou je úprava odměňování zdravotníků a lékařů samostatným zákonem, kde se bude odrážet náročnost této profese.",
     href: "/nase-cile"
   },
 ]
