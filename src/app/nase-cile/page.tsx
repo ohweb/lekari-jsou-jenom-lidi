@@ -43,10 +43,22 @@ export default function NaseCile() {
                     <p className="mt-6">Zákoník práce umožňuje se souhlasem zaměstnance odpracovat 416 hodin přesčasové práce ročně. Limit bývá u mnoha lékařů překročen již květnu, nezřídka i dříve. Ale pracuje se dál. Co na to stát? Co na to orgány inspekce práce? Nikdy nic nezjistily. Pracuje se dál a všem je to jedno. Nikoho to netrápí, protože pracujeme levně.</p>
 
                     <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">4. navýšení ceny práce lékaře v základní pracovní době na důstojnou úroveň a zajištění valorizace</h2>
-                    <p className="mt-6">Český stát si cení práce lékaře po škole na 232 Kč/hod hrubého (platová tabulka 38980 Kč) a po atestaci 300Kč/hod hrubého (platová tabulka +-50000 Kč), kdy už je plně zodpovědný nejen sám za sebe, ale i za všechny, kteří pracují pod ním. Tato částka je naprosto neadekvátní a lékaři jsou tak mimojiné ekonomicky nuceni pracovat 1,5 až 2 násobek normální pracovní doby, aby si byl schopen vydělat na živobytí.</p>
-                    <p className="mt-6">Je potřeba zvýšit základní hodinové ohodnocení lékařů. Dokud je lékař levná pracovní síla, je každému jedno, kolik hodin pracuje. Teprve ve chvíli, kdy bude práce lékaře, jakožto vysoce specializované pracovní síly, adekvátně ohodnocená, a to už v základní pracovní době, přestane se s ní plýtvat a začne se s ní nakládat s rozmyslem. Ale ne ve smyslu omezení péče o pacienty, právě naopak. Aby lékař za své peníze vykonával opravdu jen práci lékaře a věnoval se pacientům. A ne aby trávil čas papírováním, vyplňování tabulek a formulářů či prostě jen držel službu v nějaké nemocnici či na oddělení, kde se za celou noc či víkend skoro nic neděje a ekonomicky ani medicínsky to celé nedává smysl, ale z politických důvodů ji není možné zavřít.</p>
-                    <p className="mt-6">Toto nám již bylo slíbeno v roce 2013 <a className="text-base font-semibold text-cyan-600" href="https://www.idnes.cz/zpravy/domaci/memorandum-hegera-a-odboru.A110215_083059_domaci_jw">v Hegerově memorandu <span aria-hidden="true">→</span></a></p>
-                    <p className="mt-6">&ldquo;Přidávání v roce 2012 – v souvislosti s reformou se průměrný plat lékaře zvýší o deset procent a od roku 2013 pak dosáhne 1,5 až trojnásobku průměrné mzdy ve státě, v roce 2012 porostou také platy všem zdravotnickým pracovníkům&rdquo; <br />Uplynulo 10 let a nestalo se nic…</p>
+                    <p className="mt-6">Český stát si cení práce lékaře po škole na 232 Kč/hod hrubého (platová tabulka
+                        38&nbsp;980 Kč) a po atestaci 300Kč/hod hrubého (platová tabulka ±50&nbsp;000 Kč), kdy už je
+                        plně zodpovědný nejen sám za sebe, ale i za celý zdravotnický tým. Tato částka je naprosto
+                        neadekvátní a lékaři jsou tak mimojiné ekonomicky nuceni pracovat 1,5 až 2 násobek normální
+                        pracovní doby.</p>
+                    <p className="mt-6">Je potřeba zvýšit základní hodinové ohodnocení lékařů. Dokud je lékař levná
+                        pracovní síla, je každému jedno, kolik hodin pracuje. Teprve ve chvíli, kdy bude práce lékaře,
+                        jakožto vysoce specializované pracovní síly, adekvátně ohodnocená, a to už v základní pracovní
+                        době, přestane se s ní plýtvat a začne se s ní nakládat s rozmyslem. Ale ne ve smyslu omezení
+                        péče o pacienty, právě naopak. Aby lékař za své peníze vykonával opravdu jen práci lékaře a
+                        věnoval se pacientům. A ne aby trávil čas papírováním, vyplňování tabulek a formulářů.
+                        Požadujeme 1,5 až 3 násobek průměrné (národní) hrubé mzdy (tj 60&nbsp;000 Kč pro L1,
+                        80&nbsp;000 pro L2, 120&nbsp;000 pro L3 už v roce 2024), aby bylo pro lékaře motivující zůstat
+                        i po atestaci ve veřejném zdravotnictví. Jedinou dlouhodobou zárukou je úprava odměňování
+                        zdravotníků a lékařů samostatným zákonem, kde se bude odrážet náročnost této profese.
+                    </p>
                 </Container>
             </section>
         </main>
