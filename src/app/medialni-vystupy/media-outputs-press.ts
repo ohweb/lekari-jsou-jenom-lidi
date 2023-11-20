@@ -2,6 +2,13 @@ import mediaOutlets from "@/app/medialni-vystupy/media-outlets";
 
 const mediaOutputs = [
     {
+        title: "Nemocnice nepopisují pravdivé stavy, ARO omezí 10 měst, říká k protestu Hilšerová",
+        date: new Date("2023-11-20"),
+        perex: "Lékaři se stále nedohodli s ministerstvem zdravotnictví na změnách v novele zákoníku práce, od začátku prosince tak dál hrozí hromadné stávky. Neshody panují hlavně v oblasti odměňování. „Nemocnice nepopisují pravdivé stavy, přibývají výpovědi,“ říká k protestu mluvčí Sekce mladých lékařů Monika Hilšerová.",
+        link: "https://www.idnes.cz/zpravy/domaci/sekce-mladych-lekaru-clk-zdravotnictvi-odmenovani-platy-stavka-prescasy.A231120_133826_domaci_hovo?",
+        source: mediaOutlets.idnes
+    },
+    {
         title: "Otázky Václava Moravce - Lékařské přesčasy",
         date: new Date("2023-11-19"),
         perex: "Lékařské přesčasy. Diskuse viceprezidenta České lékařské komory Jana Přády a náměstka ministra zdravotnictví Václava Pláteníka.",
