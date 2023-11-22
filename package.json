@@ -1,6 +1,6 @@
 {
   "name": "lekari-jsou-jenom-lidi-web-alessandro",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
