@@ -26,6 +26,7 @@ function MobileNavLink({
 
 function MobileNavIcon({ open }: { open: boolean }) {
   return (
+    // biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
     <svg
       aria-hidden="true"
       className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
@@ -89,9 +90,13 @@ function MobileNavigation() {
             <MobileNavLink href="/nase-cile">Naše cíle</MobileNavLink>
             <MobileNavLink href="/pribehy">Vaše příběhy</MobileNavLink>
             <MobileNavLink href="/pravni-poradna">Právní poradna</MobileNavLink>
-            <MobileNavLink href="/medialni-vystupy">Mediální výstupy</MobileNavLink>
+            <MobileNavLink href="/medialni-vystupy">
+              Mediální výstupy
+            </MobileNavLink>
             <MobileNavLink href="/o-nas">O nás</MobileNavLink>
-            <MobileNavLink href="/vypovidam-prescasy">Odmítnutí přesčasů</MobileNavLink>
+            <MobileNavLink href="/vypovidam-prescasy">
+              Odmítnutí přesčasů
+            </MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -119,9 +124,12 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-            <Button href="/vypovidam-prescasy" color="cyan">
-              <span><span className="hidden lg:inline">Návod na </span>odmítnutí přesčasů</span>
-            </Button>
+              <Button href="/vypovidam-prescasy" color="cyan">
+                <span className="text-center">
+                  <span className="hidden lg:inline">Návod na </span>odmítnutí
+                  přesčasů
+                </span>
+              </Button>
             </div>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
