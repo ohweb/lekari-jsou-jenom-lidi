@@ -4,6 +4,9 @@ import matter from 'gray-matter'
 import getPostMetadata from '@/components/Posts/getPostMetadata'
 import React from 'react'
 import { NextPageProps } from '@/libs/NextPageProps'
+import Image from 'next/image'
+import backgroundImage from '@/images/background-faqs.jpg'
+import { Container } from '@/components/Container'
 
 const getPostContent = (slug: string) => {
   const folder = 'posts/'
@@ -24,20 +27,42 @@ export default function PostPage(props: NextPageProps) {
   const post = getPostContent(slug)
 
   return (
-    <>
-      <div className="bg-white px-6 py-32 lg:px-8">
+    <section
+      id="single-article"
+      aria-labelledby="article-title"
+      className="relative py-20 sm:py-32"
+    >
+      <Container className="relative">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            {post.data.title}
-          </h1>
-          <p className="mt-6 text-xl leading-8">{post.data.perex}</p>
-          <div className="mt-10 max-w-2xl">
-            <article className="prose lg:prose-xl">
-              <Markdown>{post.content}</Markdown>
-            </article>
+          <div className="md:text-center">
+            <h2
+              id="article-title"
+              className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
+            >
+              {post.data.title}
+            </h2>
+            <h3 className="text-lg">
+              <time
+                dateTime={post.data.date.toString()}
+                className="text-gray-500"
+              >
+                {post.data.date.toLocaleDateString('cs-CZ', {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })}
+              </time>
+            </h3>
+            <p className="mt-4 text-xl tracking-tight text-slate-700">
+              {post.data.perex}
+            </p>
+          </div>
+
+          <div className="mt-16 text-justify">
+            <Markdown className="prose max-w-3xl">{post.content}</Markdown>
           </div>
         </div>
-      </div>
-    </>
+      </Container>
+    </section>
   )
 }
