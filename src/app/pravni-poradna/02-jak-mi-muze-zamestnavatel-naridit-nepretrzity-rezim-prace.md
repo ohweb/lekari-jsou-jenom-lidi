@@ -1,5 +1,5 @@
 ---
-id: 2,
+id: 2
 question: "Jak mi může zaměstnavatel nařídit nepřetržitý režim práce? Může to udělat jednostranně?"
 ---
 Obecně platí, že o rozvržení pracovní doby, včetně typu režimu, do nějž bude zaměstnanec zařazen,

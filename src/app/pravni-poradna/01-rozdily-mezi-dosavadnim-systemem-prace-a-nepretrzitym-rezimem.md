@@ -1,5 +1,5 @@
 ---
-id: 1,
+id: 1
 question: "Jaké jsou rozdíly mezi dosavadním systémem práce lékařů (8 h práce všední den, péče mimo
 základní pracovní dobu zajištěna přesčasy se střídáním po 24 h v práci) a nepřetržitým režimem,
 kupř. ve 12hodinových směnách?"
