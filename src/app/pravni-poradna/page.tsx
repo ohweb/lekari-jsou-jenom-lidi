@@ -1,6 +1,7 @@
 import { type Metadata } from 'next'
 import LegalFaq from '@/components/LegalFaqs/LegalFaq'
 import getLegalFaqs from '@/components/LegalFaqs/getLegalFaqs'
+import { Button } from '@/components/Button'
 
 export const metadata: Metadata = {
   title: 'Právní poradna',
@@ -20,6 +21,11 @@ export default function PravniPoradna() {
               Ve spolupráci s Mgr. Alešem Buriánkem jsme pro vás připravili
               nejčastější právní otázky a odpovědi.
             </p>
+            <div className="mt-10 flex justify-center gap-x-6">
+              <Button href="/vypovidam-prescasy">
+                Návod na vypovězení přesčasové práce
+              </Button>
+            </div>
           </div>
           <dl className="mt-16 space-y-12 divide-y divide-gray-900/10">
             {legalFaqs.map((oneLegalFaq) => (
