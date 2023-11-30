@@ -3,6 +3,15 @@ import mediaOutlets from '@/app/medialni-vystupy/media-outlets'
 const mediaOutputs = [
   {
     title:
+      'Poslanci zrušili úpravu zákoníku práce, která přidávala přesčasy lékařům',
+    date: new Date('2023-11-30'),
+    perex:
+      'Poslanci na mimořádné schůzi zrychleně schválili návrh na zrušení nedávno přijaté úpravy přesčasů lékařů. Protesty lékařů vyvolala část novely zákoníku práce účinná od října, která umožnila zdvojnásobení ročního objemu dobrovolných přesčasů zdravotníků až na 832 hodin. To při jednání o zákoníku práce prosadil lidovec Vít Kaňkovský.',
+    link: 'https://www.lidovky.cz/domov/snemovna-zmena-zakoniku-prace-prescasy-lekaru-valek-jurecka.A231130_171554_ln_domov_rkj',
+    source: mediaOutlets.lidovky,
+  },
+  {
+    title:
       'Protest lékařů se zatím odkládá. Fiala jim slíbil změnu zákona i peníze navíc',
     date: new Date('2023-11-30'),
     perex:
