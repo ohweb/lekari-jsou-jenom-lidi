@@ -3,6 +3,15 @@ import mediaOutlets from '@/app/medialni-vystupy/media-outlets'
 const mediaOutputs = [
   {
     title:
+      'Lékaři se dohodli s Fialou, dostanou 9,8 miliardy navíc. Doktoři protest odvolají až po podpisu dohody',
+    date: new Date('2023-11-30'),
+    perex:
+      'Na čtvrtečním jednání s nespokojenými lékaři podle premiéra Petra Fialy (ODS) byla nalezena shoda poté, co jim pro příští rok nabídl 9,8 miliardy korun z veřejného zdravotního pojištění na nárůst odměňování lékařů i nelékařů v nemocnicích. Půjde o dodatek k úhradové vyhlášce, aby byl závazný pro státní i krajské, městské či soukromé nemocnice, řekl Fiala po jednání.',
+    link: 'https://www.irozhlas.cz/zpravy-domov/nemocnice-prescasy-vypovedi-jan-prada-odbory-lekari-doktori_2311301438_hof',
+    source: mediaOutlets.irozhlas,
+  },
+  {
+    title:
       'Poslanci zrušili úpravu zákoníku práce, která přidávala přesčasy lékařům',
     date: new Date('2023-11-30'),
     perex:
