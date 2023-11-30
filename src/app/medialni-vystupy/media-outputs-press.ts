@@ -25,7 +25,7 @@ const mediaOutputs = [
     date: new Date('2023-11-30'),
     perex:
       'Dnešek byl posledním dnem, který mohl zvrátit hrozbu lékařů o prosincovém vypovězení přesčasových hodin. Vláda po několikahodinovém jednání s lékaři přislíbila pro příští rok změny zákona a téměř 10 miliard korun na platy. Výsledek po schůzce, která se oproti původnímu plánu protáhla o dvě hodiny, oznámil premiér Petr Fiala (ODS).',
-    link: 'https://www.idnes.cz/zpravy/domaci/sekce-mladych-lekaru-clk-zdravotnictvi-odmenovani-platy-stavka-prescasy.A231120_133826_domaci_hovo?',
+    link: 'https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-fiala-lekarum-prislibil-zmenu-zakona-i-miliardy-navic-240730',
     source: mediaOutlets.seznamZpravy,
   },
   {
