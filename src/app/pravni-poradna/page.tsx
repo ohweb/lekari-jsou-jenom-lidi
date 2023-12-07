@@ -25,6 +25,9 @@ export default function PravniPoradna() {
               <Button href="/vypovidam-prescasy">
                 Návod na vypovězení přesčasové práce
               </Button>
+              <Button href="https://www.psp.cz/sqw/text/tiskt.sqw?O=9&CT=581&CT1=0">
+                Novela zákoníku práce
+              </Button>
             </div>
           </div>
           <dl className="mt-16 space-y-12 divide-y divide-gray-900/10">
