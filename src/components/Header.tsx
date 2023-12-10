@@ -94,6 +94,9 @@ function MobileNavigation() {
               Mediální výstupy
             </MobileNavLink>
             <MobileNavLink href="/o-nas">O nás</MobileNavLink>
+            <MobileNavLink href="/plne-zneni-dohody">
+              Plné znění dohody
+            </MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -120,6 +123,11 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
+            <div className="hidden md:block">
+              <Button href="/plne-zneni-dohody" color="cyan">
+                <span className="text-center">Plné znění dohody</span>
+              </Button>
+            </div>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

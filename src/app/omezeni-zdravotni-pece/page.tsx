@@ -1,9 +1,7 @@
 import { Container } from '@/components/Container'
 import React from 'react'
 import Image from 'next/image'
-import mediaOutputs from '@/app/medialni-vystupy/media-outputs-press'
 import { Metadata } from 'next'
-import fs from 'fs'
 
 import imageNpkPardubice from '@/images/omezeni-zdravotni-pece/Omezeni pece NPK Pardubice.jpg'
 import imageOnKladno from '@/images/omezeni-zdravotni-pece/Omezeni pece ON Kladno.png'
