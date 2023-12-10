@@ -23,22 +23,12 @@ export function Hero() {
           .
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-          Na základě schválení novelizace zákoníku práce, která vstoupí v
-          účinnosti 1. 10. 2023, vypovídáme veškeré dobrovolné přesčasy k 1. 12.
-          2023.
+          Na základě úspěšně dokončených jednání a podpisu společné dohody,
+          chceme poděkovat všem lékařům, kteří se zapojili do této protestní
+          akce. V&nbsp;případě, že jste dosud nedosáhli limitů dobrovolné práce
+          přesčas, bychom Vás chtěli vyzvat k opětovnému zapojení se do služeb u
+          jednotlivých poskytovatelů.
         </p>
-        <div className="mt-10 flex justify-center gap-x-6">
-          <Button href="/omezeni-zdravotni-pece">Omezení zdravotní péče</Button>
-          <Button href="/" variant="outline" className={'hidden'}>
-            <svg
-              aria-hidden="true"
-              className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
-            >
-              <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
-            </svg>
-            <span className="ml-3">Watch video</span>
-          </Button>
-        </div>
       </Container>
     </>
   )
