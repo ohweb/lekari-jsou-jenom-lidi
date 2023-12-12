@@ -47,7 +47,10 @@ export default function AktualityPage() {
           <div className="mx-auto max-w-2xl">
             <div className="mt-10 space-y-16 pt-10 sm:mt-16 sm:pt-16">
               {posts.map((post) => (
-                <article className="flex max-w-xl flex-col items-start justify-between">
+                <article
+                  key={post.slug}
+                  className="flex max-w-xl flex-col items-start justify-between"
+                >
                   <div className="flex items-center gap-x-4 text-xs">
                     <time
                       dateTime={post.date.toString()}
