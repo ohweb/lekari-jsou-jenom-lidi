@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import { Container } from '@/components/Container'
-import Image from 'next/image'
 import React from 'react'
 
 export const metadata: Metadata = {
@@ -13,7 +12,7 @@ export default function OmezeniZdravotniPecePage() {
       <section
         id="testimonials"
         aria-label="What our customers are saying"
-        className="bg-slate-50 py-20 sm:py-32"
+        className="py-20 sm:py-32"
       >
         <Container>
           <div className="mx-auto max-w-2xl md:text-center">
