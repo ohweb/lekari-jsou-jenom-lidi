@@ -3,6 +3,42 @@ import mediaOutlets from '@/app/medialni-vystupy/media-outlets'
 const mediaOutputs = [
   {
     title:
+      'Vláda podepsala dohodu s lékaři. ‚Při vyjednávání nešlo jen o platy, ale i o podmínky,‘ řekl Fiala',
+    date: new Date('2023-12-08'),
+    perex:
+      'Při přípravě dohody, která má ukončit odmítání přesčasové práce ze strany tisíců nemocničních lékařů, nešlo podle premiéra Petra Fialy (ODS) jen o platy a mzdy, ale také o pracovní podmínky a podmínky vzdělávání. Řekl to v pátek před popisem dohody se Všeobecnou zdravotní pojišťovnou (VZP), zástupci odborů a České lékařské komory (ČLK).',
+    link: 'https://www.irozhlas.cz/zpravy-domov/lekari-prada-fiala-valek_2312081227_pj',
+    source: mediaOutlets.irozhlas,
+  },
+  {
+    title:
+      'Konec nejistoty v nemocnicích. Zástupci vlády a zdravotníků podepsali dohodu o platech',
+    date: new Date('2023-12-08'),
+    perex:
+      'Zástupci vlády a zdravotníků podepsali dohodu s Všeobecnou zdravotní pojišťovnou, která by měla ukončit prosincový protest lékařů. Jejich krok v některých nemocnicích výrazně omezil provoz, byla odložena plánovaná vyšetření nebo operace. Viceprezident České lékařské komory Jan Přáda po podpisu dohody lékaře v nemocnicích vyzval, aby výpovědi z přesčasové práce stáhli. Někteří ale již prohlásili, že tak navzdory dohodě udělat nehodlají.',
+    link: 'https://ct24.ceskatelevize.cz/clanek/domaci/konec-nejistoty-v-nemocnicich-zastupci-vlady-a-zdravotniku-podepsali-dohodu-o-platech-343999',
+    source: mediaOutlets.ceskaTelevize,
+  },
+  {
+    title:
+      'Lékařské odbory podpořily dohodu s ministerstvem zdravotnictví. K podpisu se chystají v pátek',
+    date: new Date('2023-12-07'),
+    perex:
+      'Lékařský odborový klub – Svaz Českých lékařů ve čtvrtek na svém jednání podpořil dojednanou dohodu s ministerstvem zdravotnictví. Ta by měla zajistit, že příští rok na odměny zdravotníků půjde o téměř deset miliard korun navíc. Podle předsedy odborového klubu Martina Engela měly některé odborové organizace k výsledné podobě dohody výhrady. Většina ji ale podpořila.',
+    link: 'https://www.irozhlas.cz/zpravy-domov/lekari-odbory-prescasy-zdravotnictvi-mzdy-dohoda_2312071701_fos',
+    source: mediaOutlets.irozhlas,
+  },
+  {
+    title:
+      'Válek se dohodl se zástupci lékařů na růstu platů. V pátek by mohl skončit protest zdravotníků',
+    date: new Date('2023-12-04'),
+    perex:
+      'Lékaři by měli v pátek začít stahovat své výpovědi z přesčasové práce, řekl viceprezident České lékařské komory Jan Přáda po jednání s ministrem zdravotnictví Vlastimilem Válkem (TOP 09), zástupci nemocnic a zdravotních pojišťoven. Podmínkou je ale podpis finální dohody. Válek sdělil, že všichni účastníci schůzky projevili souhlas s nabídkou na růst platů ve zdravotnictví a předloží ji organizacím ke schválení. Dohoda počítá s růstem výdělků lékařů o pět až patnáct tisíc korun, u ostatních zaměstnanců nemocnic včetně nezdravotnických pracovníků o pět procent.',
+    link: 'https://ct24.ceskatelevize.cz/clanek/domaci/valek-se-dohodl-se-zastupci-lekaru-na-rustu-platu-v-patek-by-mohl-skoncit-protest-zdravotniku-343867',
+    source: mediaOutlets.ceskaTelevize,
+  },
+  {
+    title:
       'Lékaři se dohodli s Fialou, dostanou 9,8 miliardy navíc. Doktoři protest odvolají až po podpisu dohody',
     date: new Date('2023-11-30'),
     perex:

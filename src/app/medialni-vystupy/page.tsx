@@ -15,6 +15,8 @@ function QuoteIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Mediální výstupy',
+  description:
+    'Souhrn článků a videí v online médiích, kde se můžete setkat s tématy, která řešíme v rámci akce Lékaři jsou jenom lidi.',
 }
 
 export default function MedialniVystupyPage() {
