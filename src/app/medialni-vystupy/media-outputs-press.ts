@@ -3,6 +3,15 @@ import mediaOutlets from '@/app/medialni-vystupy/media-outlets'
 const mediaOutputs = [
   {
     title:
+      'Ve druhé polovině roku budou mít lékaři přesčasy znovu vyčerpané, varuje ČLK',
+    date: new Date('2023-12-17'),
+    perex:
+      'Ve druhé polovině roku budou mít lékaři maximální zákonný počet 416 přesčasových hodin znovu vyčerpaný. V pořadu Otázky Václava Moravce to dnes řekla mluvčí Sekce mladých lékařů České lékařské komory Monika Hilšerová. Podle ministra zdravotnictví Vlastimila Válka (TOP 09) by problém měla vyřešit další novela zákoníku práce a zavedení směnného provozu v nemocnicích, kde je potřeba nepřetržitý provoz.',
+    link: 'https://www.seznamzpravy.cz/clanek/domaci-ve-druhe-polovine-roku-budou-mit-lekari-prescasy-znovu-vycerpane-varuje-clk-241910',
+    source: mediaOutlets.seznamZpravy,
+  },
+  {
+    title:
       'Vláda podepsala dohodu s lékaři. ‚Při vyjednávání nešlo jen o platy, ale i o podmínky,‘ řekl Fiala',
     date: new Date('2023-12-08'),
     perex:
