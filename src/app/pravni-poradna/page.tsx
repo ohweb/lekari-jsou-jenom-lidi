@@ -22,7 +22,10 @@ export default function PravniPoradna() {
               nejčastější právní otázky a odpovědi.
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
-              <Button href="https://www.psp.cz/sqw/text/tiskt.sqw?O=9&CT=581&CT1=0">
+              <Button href="aktuality/2024-02-24-na-co-si-dat-pozor-v-souvislosti-s-novelou">
+                Na co si dát pozor v souvislosti s novelou
+              </Button>
+              <Button href="https://www.psp.cz/sqw/text/tiskt.sqw?O=9&CT=581&CT1=0" variant="outline">
                 Novela zákoníku práce
               </Button>
             </div>
